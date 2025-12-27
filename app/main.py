@@ -1,7 +1,8 @@
-from app.models.visitor import Visitor
-from app.cafe import Cafe
-from app.errors import VaccineError, NotWearingMaskError
 from typing import List
+
+from app.cafe import Cafe
+from app.models.visitor import Visitor
+from app.errors import VaccineError, NotWearingMaskError
 
 
 def go_to_cafe(friends: List[Visitor], cafe: Cafe) -> str:

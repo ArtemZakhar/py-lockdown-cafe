@@ -1,4 +1,5 @@
 from typing import Optional, TypedDict
+
 from app.models.vaccine import Vaccine
 
 
